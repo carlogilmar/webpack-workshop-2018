@@ -4,6 +4,7 @@ import {footer} from "./footer";
 import makeButton from "./button"
 import {red, blue, makeColorStyle} from './button-styles'
 import "./footer.css";
+import "./button.css";
 
 const button = makeButton("I'm a Button");
 button.style = makeColorStyle("cyan");
