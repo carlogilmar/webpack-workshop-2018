@@ -7,5 +7,7 @@ import {red, blue, makeColorStyle} from './button-styles'
 console.log(nav());
 console.log(top);
 console.log(bottom);
-console.log(makeButton("My first button!!"));
 console.log(makeColorStyle("#FFFFFF"));
+
+const button = makeButton("I'm a Button");
+document.body.appendChild(button);
